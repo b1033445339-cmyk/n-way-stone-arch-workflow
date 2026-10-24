@@ -1,0 +1,78 @@
+{
+  ".gitignore": {
+    "bytes": 69,
+    "sha256": "b2f39667f5abe58c4adbab5523dfa36955c5c9344da17b686abb8e7997e7b058"
+  },
+  "docs/PROVENANCE.md": {
+    "bytes": 2218,
+    "sha256": "cb2beff61d0ebfac2a950eb37fe1177454dfafec08571dbb0f031501cb32bce6"
+  },
+  "docs/SCRIPT_INTERFACES.md": {
+    "bytes": 16826,
+    "sha256": "2c06b9c7c1a1c978842540f8554f05b7bb30b30d1470948d04751616b4a1dd53"
+  },
+  "examples/paper_cases.json": {
+    "bytes": 4175,
+    "sha256": "ed33ada3a8b5f2fd1ced09699718f7d506317c33134e4fbbdc6fa884a2d042be"
+  },
+  "grasshopper/NWayStoneArch.gh": {
+    "bytes": 200845,
+    "sha256": "0d4003d73a7a54ce5eb11547dee716400bebcab6eee66f4d617311b01b86d09a"
+  },
+  "LICENSE.txt": {
+    "bytes": 1864,
+    "sha256": "fbcc8cfbc2be0ca04f83f82544b1d84c554131a03801066225a11de022b37bf7"
+  },
+  "README.md": {
+    "bytes": 4919,
+    "sha256": "fd141b619302db84708667c94d2a7892bc160f7d90f1d120218c6b98046ef037"
+  },
+  "scripts/01_ParametricGeometry.py": {
+    "bytes": 23411,
+    "sha256": "eb883a9e3210fd59e6d8f7aefd1a70558a64de77fecee656a8df4cdfa5227792"
+  },
+  "scripts/02_RealSelfWeight.py": {
+    "bytes": 13034,
+    "sha256": "ccc4f9d3c7deb5b3a1955d9d8962a7dd40e3b998792aea8f325ab2cae5683682"
+  },
+  "scripts/03_KangarooInitialForm.py": {
+    "bytes": 11984,
+    "sha256": "5c4f54223fb5038a6f5d0eba5bc50b542593ddbd3c4310b04ab48de0d82afb24"
+  },
+  "scripts/04_TNAEnvelopeCheck.py": {
+    "bytes": 18691,
+    "sha256": "6230b75143294ff805c74911eb55c8c8a8719f54f004599f67d519f19d75e13e"
+  },
+  "scripts/05_SectionKernCheck.py": {
+    "bytes": 19640,
+    "sha256": "5b479168011e227fd36559042aab7df6c27e776529e90a6fef33259738d9e683"
+  },
+  "scripts/06_UtilisationGuidedSegmentation.py": {
+    "bytes": 53032,
+    "sha256": "fd009223d7581c6ce72cbcf6cf9837936c9a0e85348bb9a7dc70c11421e21306"
+  },
+  "scripts/07_BlockWeightAndJointAdjacency.py": {
+    "bytes": 10664,
+    "sha256": "7d4ac5dcb7c1b47a2b272cd89daa3e9c4d2b22f5e40864d267afa598254711ae"
+  },
+  "scripts/07B_JointResultants.py": {
+    "bytes": 42272,
+    "sha256": "9900d07815373133fb70c562da67d045222067b559139174c20ff00e60c6b106"
+  },
+  "scripts/07C_JointOpeningAndPressure.py": {
+    "bytes": 22470,
+    "sha256": "98a75e961d50b2f443c79545f8e8b518383668fb3bd3537099960065bfe77a20"
+  },
+  "scripts/07D_PartialContactPressure.py": {
+    "bytes": 25778,
+    "sha256": "41072e2100fa15928a35658a6c7b76104fb44c480b639ddb24c704ec9daf83ed"
+  },
+  "scripts/07E_SlidingIndicator.py": {
+    "bytes": 4889,
+    "sha256": "4a10eafd5c3c9d6ea3ecf431aec9ba7e74749323e986dc560b371d6fe3d08d56"
+  },
+  "scripts/07F_SlidingDeficit.py": {
+    "bytes": 16844,
+    "sha256": "022f66578cc2704f8fa609972fde5da45db24e2fd8736a0379389bcdb6f697d9"
+  }
+}

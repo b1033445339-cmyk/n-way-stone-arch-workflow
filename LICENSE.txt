@@ -1,0 +1,38 @@
+N-Way Stone Arch Workflow — Download and Use Permission
+
+The respective copyright holders retain copyright in this material.
+
+You are permitted to download and retain local copies of this repository's
+original scripts, Grasshopper definition, examples and documentation, and to
+run the tool for your own work. You may configure the input parameters needed
+to use the tool.
+
+This permission does not grant rights to redistribute or republish the tool
+or its source files, sublicense them, or publish modified versions. For such
+uses, obtain separate permission from the copyright holders. Other rights are
+reserved. Rights independently available under applicable law or the hosting
+platform's terms are not restricted by this notice.
+
+This is a limited download-and-use permission, not an open-source license.
+Third-party software and third-party material remain subject to their own
+terms; this notice does not relicense them.
+
+The tool is research software, provided as is without warranty. Its output
+does not constitute structural certification or engineering design approval.
+
+中文说明
+
+本材料的著作权由相应权利人保留。
+
+允许下载并保存本仓库原创脚本、Grasshopper文件、案例和文档的本地副本，
+并为使用者自己的工作运行本工具；允许设置运行所需的输入参数。
+
+本许可不授予再分发、重新发布工具或源码、转授权、发布修改版本的权限。
+上述用途须另行取得权利人许可；其他权利保留。本说明不限制适用法律或
+托管平台条款已经独立赋予的权利。
+
+本许可为有限的下载与使用许可，不属于开源许可证。第三方软件及材料仍
+遵循各自条款，本说明不改变其许可。
+
+本工具为按现状提供的研究软件，不作保证；计算输出不构成结构认证或
+工程设计批准。
