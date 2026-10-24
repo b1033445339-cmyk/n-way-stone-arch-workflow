@@ -1,0 +1,226 @@
+{
+  "label_mapping": {
+    "G0": "H0",
+    "G1": "H1",
+    "G2": "H2",
+    "G3": "H3",
+    "D3": "N3",
+    "D4": "N4",
+    "D5": "N5"
+  },
+  "shared_settings": {
+    "UnitWeight": 25.5,
+    "FrictionCoefficient": 0.55,
+    "SlidingSafetyFactor": 1.5,
+    "HorizontalLoadRatio": 0.4,
+    "HorizontalAngleStepDegrees": 5,
+    "RefinementAngleStepDegrees": 1,
+    "RefinementHalfWidthDegrees": 5
+  },
+  "cases": {
+    "H0": {
+      "H": 6.5,
+      "RotationAngles": [
+        8.3,
+        64.2,
+        126.0,
+        231.0,
+        311.2
+      ],
+      "Spans": [
+        6.3,
+        8.8,
+        7.1,
+        9.9,
+        7.8
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "TopSlopePercent": 1.0,
+      "N": 5
+    },
+    "H1": {
+      "H": 5.75,
+      "RotationAngles": [
+        8.3,
+        64.2,
+        126.0,
+        231.0,
+        311.2
+      ],
+      "Spans": [
+        6.3,
+        8.8,
+        7.1,
+        9.9,
+        7.8
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "TopSlopePercent": 1.0,
+      "N": 5
+    },
+    "H2": {
+      "H": 5.4,
+      "RotationAngles": [
+        8.3,
+        64.2,
+        126.0,
+        231.0,
+        311.2
+      ],
+      "Spans": [
+        6.3,
+        8.8,
+        7.1,
+        9.9,
+        7.8
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "TopSlopePercent": 1.0,
+      "N": 5
+    },
+    "H3": {
+      "H": 5.2,
+      "RotationAngles": [
+        8.3,
+        64.2,
+        126.0,
+        231.0,
+        311.2
+      ],
+      "Spans": [
+        6.3,
+        8.8,
+        7.1,
+        9.9,
+        7.8
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "TopSlopePercent": 1.0,
+      "N": 5
+    },
+    "N3": {
+      "N": 3,
+      "H": 4.4,
+      "RotationAngles": [
+        0.0,
+        75.0,
+        205.0
+      ],
+      "Spans": [
+        9.4,
+        6.3,
+        8.0
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "TopSlopePercent": 1.0,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "source_evidence": "work/n345_two_strong_irregular_mainline.json"
+    },
+    "N4": {
+      "N": 4,
+      "H": 4.7,
+      "RotationAngles": [
+        0.0,
+        48.0,
+        148.0,
+        278.0
+      ],
+      "Spans": [
+        8.8,
+        6.5,
+        9.8,
+        7.2
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "TopSlopePercent": 1.0,
+      "CrownBlockRadius": 1.6,
+      "TargetBlockLength": 1.4,
+      "source_evidence": "work/n4_two_sloped_strong_irregular_mainline.json"
+    },
+    "N5": {
+      "N": 5,
+      "H": 5.03,
+      "RotationAngles": [
+        8.3,
+        64.2,
+        126.0,
+        231.0,
+        311.2
+      ],
+      "Spans": [
+        6.3,
+        8.8,
+        7.1,
+        9.9,
+        7.8
+      ],
+      "FootWidths": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "CrownDepth": 0.75,
+      "CrownFilletRadius": 0.3,
+      "TopSlopePercent": 1.0,
+      "CrownBlockRadius": 1.3,
+      "TargetBlockLength": 1.4,
+      "source_evidence": "work/n345_two_strong_irregular_mainline.json"
+    }
+  }
+}
