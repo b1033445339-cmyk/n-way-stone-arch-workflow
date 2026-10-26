@@ -1,0 +1,105 @@
+{
+  "case": "N6",
+  "verified_on": "2026-10-26",
+  "source_run": "attempt10",
+  "inputs": {
+    "N": 6,
+    "H": 4.6,
+    "RotationAngles": [
+      8.3,
+      53.3,
+      103.3,
+      158.3,
+      218.3,
+      288.3
+    ],
+    "Spans": [
+      6.3,
+      9.4,
+      7.2,
+      10.1,
+      6.6,
+      8.7
+    ],
+    "FootWidths": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "CrownDepth": 0.75,
+    "CrownFilletRadius": 0.2,
+    "TopSlopePercent": 1.0,
+    "CrownBlockRadius": 1.8,
+    "TargetBlockLength": 1.4
+  },
+  "shared_settings": {
+    "UnitWeight": 25.5,
+    "FrictionCoefficient": 0.55,
+    "SlidingSafetyFactor": 1.5,
+    "HorizontalLoadRatio": 0.4,
+    "HorizontalAngleStepDegrees": 5,
+    "RefinementAngleStepDegrees": 1,
+    "RefinementHalfWidthDegrees": 5
+  },
+  "discretisation": {
+    "segments_per_branch": 12,
+    "target_volume_samples": 70000,
+    "sampling_axis_limit": 72
+  },
+  "reference_results": {
+    "solid_volume_m3": 95.07403645451429,
+    "block_volume_m3": 95.07409541046835,
+    "weight_kN": 2424.3879295901133,
+    "block_weight_kN": 2424.389432966943,
+    "allowed_weight_error_kN": 0.04848775859180229,
+    "nodes": 73,
+    "edges": 72,
+    "blocks": 36,
+    "joints": 35,
+    "directions": 240,
+    "rows": 8400,
+    "max_sliding_deficit_kN": 6.412068729621808,
+    "deficit_joint": "arch[3]/joint[5]",
+    "deficit_angle_deg": 228.0,
+    "max_joint_pressure_MPa": 1.4563088896245573,
+    "pressure_joint": "arch[6]/joint[6]",
+    "pressure_angle_deg": 290.0,
+    "section_warning_count": 48,
+    "section_screening_pass": false,
+    "no_opening_pass": false,
+    "opening_rows": 6000,
+    "partial_contact_rows": 6000,
+    "positive_deficit_joints": 1
+  },
+  "verification": {
+    "execution_state": "COMPLETED",
+    "execution_pass": true,
+    "basis": "Existing research-mainline run and saved-data/geometry checks; no numerical rerun for this repository update.",
+    "saved_data_checks_passed": [
+      "row_lengths",
+      "positive_normal_forces",
+      "deficit_formula",
+      "maxima_match",
+      "per_joint_envelope",
+      "governing_directions",
+      "weight_closure",
+      "saved_geometry_reopened_in_rhino"
+    ],
+    "source_data_sha256": "57b2aab642cac243db523c836ff933671b49cd6eab3058f0ea59cc6ef9ce5aaf",
+    "source_result_sha256": "338e09cb50f3c8b54270a9b7c53f09bfaaab3b615e92b75393516c3b8f83774a",
+    "distributed_definition_rerun_for_N6": false,
+    "scope": "Reference results from the research mainline. The repository paper-specific components and saved Grasshopper definition are separately versioned artifacts."
+  },
+  "notes": [
+    "All 936 sampled positions on the 72 discrete TNA edges passed the solid-containment check; this is a sampled check.",
+    "CrownFilletRadius is 0.20 m for N6, rather than the 0.30 m used by H0-H3.",
+    "The first candidate to complete the full mainline was retained; pressure and sliding-deficit magnitudes were not selection thresholds.",
+    "The raw sampled volume was approximately 1.46% above exact volume before exact-volume rescaling. Local load-allocation convergence was not established.",
+    "Section warnings, opening/partial contact and one positive-deficit joint remain. Numerical completion does not establish structural safety.",
+    "Maximum pressure and maximum sliding deficit occur at different joints and directions; they do not form one simultaneous load case.",
+    "The research run also executed the legacy empirical-capacity and dowel stages. Those stages are outside this repository publication scope; their outputs are not included here."
+  ]
+}

@@ -1,13 +1,4 @@
 {
-  "label_mapping": {
-    "G0": "H0",
-    "G1": "H1",
-    "G2": "H2",
-    "G3": "H3",
-    "D3": "N3",
-    "D4": "N4",
-    "D5": "N5"
-  },
   "shared_settings": {
     "UnitWeight": 25.5,
     "FrictionCoefficient": 0.55,
@@ -160,8 +151,7 @@
       "CrownFilletRadius": 0.3,
       "TopSlopePercent": 1.0,
       "CrownBlockRadius": 1.3,
-      "TargetBlockLength": 1.4,
-      "source_evidence": "work/n345_two_strong_irregular_mainline.json"
+      "TargetBlockLength": 1.4
     },
     "N4": {
       "N": 4,
@@ -188,39 +178,54 @@
       "CrownFilletRadius": 0.3,
       "TopSlopePercent": 1.0,
       "CrownBlockRadius": 1.6,
-      "TargetBlockLength": 1.4,
-      "source_evidence": "work/n4_two_sloped_strong_irregular_mainline.json"
+      "TargetBlockLength": 1.4
     },
-    "N5": {
-      "N": 5,
-      "H": 5.03,
+    "N6": {
+      "N": 6,
+      "H": 4.6,
       "RotationAngles": [
         8.3,
-        64.2,
-        126.0,
-        231.0,
-        311.2
+        53.3,
+        103.3,
+        158.3,
+        218.3,
+        288.3
       ],
       "Spans": [
         6.3,
-        8.8,
-        7.1,
-        9.9,
-        7.8
+        9.4,
+        7.2,
+        10.1,
+        6.6,
+        8.7
       ],
       "FootWidths": [
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
       ],
       "CrownDepth": 0.75,
-      "CrownFilletRadius": 0.3,
+      "CrownFilletRadius": 0.2,
       "TopSlopePercent": 1.0,
-      "CrownBlockRadius": 1.3,
+      "CrownBlockRadius": 1.8,
       "TargetBlockLength": 1.4,
-      "source_evidence": "work/n345_two_strong_irregular_mainline.json"
+      "reference_results": "N6_reference_results.json"
     }
+  },
+  "manuscript_case_roles": {
+    "primary": [
+      "H0",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "supplementary": [
+      "N3",
+      "N4",
+      "N6"
+    ]
   }
 }
