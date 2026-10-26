@@ -1,8 +1,8 @@
-# N-Way Stone Arch Workflow
+# N-Way Stone Rib Arch Workflow
 
-A Rhino 8 / Grasshopper workflow for the parametric design and feedback-driven revision of irregular radial stone arches sharing one crown.
+A Rhino 8 / Grasshopper workflow for the parametric design and feedback-driven revision of irregular radial stone rib arches sharing one crown.
 
-Companion material for **A Traceable Parametric Workflow for Feedback-Driven Revision of Irregular N-Way Stone Arches**, CAADRIA 2027 Contribution #262, by Zhifan Bai, Tao Zhou and Shixing Liu.
+Companion material for **A Parametric Workflow for the Design and Feedback Evaluation of Irregular N-Way Stone Rib Arches**, CAADRIA 2027 Contribution #262, by Zhifan Bai, Tao Zhou and Shixing Liu.
 
 The workflow connects parametric geometry, nonuniform self-weight, Kangaroo initial form finding, a compression-only network, section screening, stone segmentation, and joint contact/sliding evaluation. The designer sets inputs, reviews the returned results and chooses the next revision.
 
@@ -16,9 +16,10 @@ You may download, keep a local copy, configure inputs and run the tool for your 
 
 - `grasshopper/NWayStoneArch.gh`: saved Grasshopper definition.
 - `scripts/`: 12 paper-specific Python components, ending at the sliding-deficit envelope.
-- `examples/paper_cases.json`: H0–H3 and N3–N5 inputs, shared study settings and historical label mapping.
+- `examples/paper_cases.json`: current manuscript inputs H0–H3 and N3/N4/N6, shared study settings and case roles.
+- `examples/N6_reference_results.json`: N6 research-mainline reference results, warnings and verification scope.
 - `docs/SCRIPT_INTERFACES.md`: input/output descriptions extracted from the distributed scripts.
-- `docs/PROVENANCE.md`: artifact identity, historical verification and model scope.
+- `docs/PROVENANCE.md`: verification basis, artifact identity and model scope.
 - `SHA256SUMS.json`: file identities for the prepared material.
 
 ## Environment and use
@@ -31,14 +32,14 @@ Use Rhino 8 with Grasshopper and Python 3, Kangaroo/KangarooSolver, NumPy, SciPy
 4. Run the stages in order: 01 → 02 → 03 → 04 → 05 → 06 → 07A → 07B → 07C → 07D → 07E → 07F. Stage 07A is the file named `07_BlockWeightAndJointAdjacency.py`. Read the component reports before interpreting downstream values.
 5. Change a geometric input, then recompute that candidate's own self-weight, network, segmentation and joint results. Keep each result with its own geometry and settings. Record the maximum deficit, its joint/direction, and the separately reported pressure and warnings.
 
-H1 is an example for proceeding through the full paper workflow. H0 intentionally retains a containment failure and therefore has no downstream joint results in the paper. Warnings can remain in completed H1–H3 and N3–N5 evaluations. The N3–N5 cases also differ in geometry and height, so they do not isolate branch count as the only variable.
+H1 is an example for proceeding through the full paper workflow. H0 intentionally retains a containment failure and therefore has no downstream joint results in the paper. Warnings remain in the completed reference evaluations. The supplementary cases differ in geometry and height, so they do not isolate branch count as the only variable. The manuscript uses N3, N4 and N6 as supplementary cases.
 
-The saved file and companion sources retain the historical implementation. A new-machine installation and numerical run have not been performed as part of this publication preparation. See the provenance note before interpreting historical validation claims.
+The saved definition and companion sources retain the published implementation. N6 was verified in the research mainline on 26 October 2026; its parameters and selected results are now documented here. This update does not constitute a numerical rerun of the distributed definition or paper-specific script set. See [the provenance note](docs/PROVENANCE.md) for the distinction.
 
 ## 中文使用说明
 
 本工具用于不规则多向石砌肋拱的方案生成、评估和修改比较。先在 Rhino 8 中准备 Grasshopper、Python 3、Kangaroo、NumPy、SciPy、COMPAS 2.15.1 和 COMPAS TNA 0.7.0，设置米制和 0.001 m 容差，再由使用者打开 `grasshopper/NWayStoneArch.gh`。
 
-从案例文件选取一整组参数，并显式设置共用材料与方向扫描参数。几何生成与分块使用相同的冠部半径和顶面坡度。每次修改后重新计算该方案自身的自重、受压网络、分块与接缝结果，按阶段报告读取状态。H0为保留的包含检查失败案例；完成计算的案例仍可能有截面警告、接缝张开和正滑移缺额。原始档案中的G0–G3/D3–D5对应论文现用的H0–H3/N3–N5。
+从案例文件选取一整组参数，并显式设置共用材料与方向扫描参数。几何生成与分块使用相同的冠部半径和顶面坡度。每次修改后重新计算该方案自身的自重、受压网络、分块与接缝结果，按阶段报告读取状态。H0为保留的包含检查失败案例；完成计算的案例仍可能有截面警告、接缝张开和正滑移缺额。当前论文以H0–H3为主案例，N3、N4、N6为补充。N6的冠部圆角为0.20 m，完整输入与研究主线参考结果见examples目录。
 
-各参数的取值范围需结合具体设计条件与工程经验初步判断，再评估所选组合。材料参数及简化荷载用于研究比较，工程应用需进一步评估。当前材料附带历史核验说明；本次准备没有重新运行模型。
+各参数的取值范围需结合具体设计条件与工程经验初步判断，再评估所选组合。材料参数及简化荷载用于研究比较，工程应用需进一步评估。N6已于2026年10月26日在研究主线完成核验，本次更新整理并公开其参数与必要结果摘要，没有重新运行计算。公开脚本及Grasshopper文件保持原版本，不将研究主线的N6核验等同于这些公开文件已完成N6复测。

@@ -3,29 +3,33 @@
     "bytes": 69,
     "sha256": "b2f39667f5abe58c4adbab5523dfa36955c5c9344da17b686abb8e7997e7b058"
   },
-  "docs/PROVENANCE.md": {
-    "bytes": 2218,
-    "sha256": "cb2beff61d0ebfac2a950eb37fe1177454dfafec08571dbb0f031501cb32bce6"
-  },
-  "docs/SCRIPT_INTERFACES.md": {
-    "bytes": 16826,
-    "sha256": "2c06b9c7c1a1c978842540f8554f05b7bb30b30d1470948d04751616b4a1dd53"
-  },
-  "examples/paper_cases.json": {
-    "bytes": 4175,
-    "sha256": "ed33ada3a8b5f2fd1ced09699718f7d506317c33134e4fbbdc6fa884a2d042be"
-  },
-  "grasshopper/NWayStoneArch.gh": {
-    "bytes": 200845,
-    "sha256": "0d4003d73a7a54ce5eb11547dee716400bebcab6eee66f4d617311b01b86d09a"
-  },
   "LICENSE.txt": {
     "bytes": 1864,
     "sha256": "fbcc8cfbc2be0ca04f83f82544b1d84c554131a03801066225a11de022b37bf7"
   },
   "README.md": {
-    "bytes": 4919,
-    "sha256": "fd141b619302db84708667c94d2a7892bc160f7d90f1d120218c6b98046ef037"
+    "bytes": 5482,
+    "sha256": "a958b2ac85df75c42114bffe8a7e6479167762de4eb1379e56dde53190a497f4"
+  },
+  "docs/PROVENANCE.md": {
+    "bytes": 3718,
+    "sha256": "9c4e7e34b9ddcaff628abf61f7b71f3afefa3fe009637d4afb44b0108e7c32c6"
+  },
+  "docs/SCRIPT_INTERFACES.md": {
+    "bytes": 16826,
+    "sha256": "2c06b9c7c1a1c978842540f8554f05b7bb30b30d1470948d04751616b4a1dd53"
+  },
+  "examples/N6_reference_results.json": {
+    "bytes": 3597,
+    "sha256": "e731269f28012a74409a072307b799eadb35f64af48196c463a2c35629c3dfd5"
+  },
+  "examples/paper_cases.json": {
+    "bytes": 4073,
+    "sha256": "29881f603171ad00427383c900aae3f3e2d57fc016c5b7dbde7a647eed1b820b"
+  },
+  "grasshopper/NWayStoneArch.gh": {
+    "bytes": 200845,
+    "sha256": "0d4003d73a7a54ce5eb11547dee716400bebcab6eee66f4d617311b01b86d09a"
   },
   "scripts/01_ParametricGeometry.py": {
     "bytes": 23411,
@@ -51,10 +55,6 @@
     "bytes": 53032,
     "sha256": "fd009223d7581c6ce72cbcf6cf9837936c9a0e85348bb9a7dc70c11421e21306"
   },
-  "scripts/07_BlockWeightAndJointAdjacency.py": {
-    "bytes": 10664,
-    "sha256": "7d4ac5dcb7c1b47a2b272cd89daa3e9c4d2b22f5e40864d267afa598254711ae"
-  },
   "scripts/07B_JointResultants.py": {
     "bytes": 42272,
     "sha256": "9900d07815373133fb70c562da67d045222067b559139174c20ff00e60c6b106"
@@ -74,5 +74,9 @@
   "scripts/07F_SlidingDeficit.py": {
     "bytes": 16844,
     "sha256": "022f66578cc2704f8fa609972fde5da45db24e2fd8736a0379389bcdb6f697d9"
+  },
+  "scripts/07_BlockWeightAndJointAdjacency.py": {
+    "bytes": 10664,
+    "sha256": "7d4ac5dcb7c1b47a2b272cd89daa3e9c4d2b22f5e40864d267afa598254711ae"
   }
 }
